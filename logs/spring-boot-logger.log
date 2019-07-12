@@ -1,0 +1,32 @@
+2019-07-12 18:21:17,549 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PrarentModule2Application on ist-149 with PID 23001 (/home/ist/learnimgworkspace/PrarentModule2/target/classes started by ist in /home/ist/learnimgworkspace/PrarentModule2)
+2019-07-12 18:21:17,552 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-12 18:21:18,522 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-12 18:21:18,566 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-07-12 18:21:18,665 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ed479f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-12 18:21:18,789 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 6060 (http)
+2019-07-12 18:21:18,791 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-07-12 18:21:18,792 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 18:21:18,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-07-12 18:21:18,810 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1254 ms
+2019-07-12 18:21:18,921 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2019-07-12 18:21:18,974 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2019-07-12 18:21:18,987 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-12 18:21:18,997 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-12 18:21:19,064 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@67fee9bd'
+2019-07-12 18:21:19,065 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-12 18:21:19,102 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-07-12 18:21:19,390 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 18:21:19,407 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-12 18:21:19,591 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 6060 (http) with context path ''
+2019-07-12 18:21:19,593 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PrarentModule2Application in 2.242 seconds (JVM running for 8016.734)
+2019-07-12 18:21:19,599 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-07-12 18:22:11,655 INFO org.apache.juli.logging.DirectJDKLog [http-nio-6060-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 18:22:11,657 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-6060-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-12 18:22:11,670 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-6060-exec-1] Completed initialization in 12 ms
+2019-07-12 18:23:55,701 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-71] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-12 18:23:55,704 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-71] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-12 18:23:55,704 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-71] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-07-12 18:23:55,715 INFO com.zaxxer.hikari.HikariDataSource [Thread-71] HikariPool-12 - Shutdown initiated...
+2019-07-12 18:23:56,030 INFO com.zaxxer.hikari.HikariDataSource [Thread-71] HikariPool-12 - Shutdown completed.
